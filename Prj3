@@ -1,0 +1,444 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta type="text./css" role="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> 666</title>
+        <style>
+           html{
+            background-image: url(Motion-Background.svg);
+            background-attachment: fixed;
+            max-width: auto;
+            max-height: auto;
+           }
+           @keyframes Animate-9{
+            0%{margin-left: -2000px; opacity: 0;}
+            100%{margin-left: 20px; opacity: 1;}
+           }
+           .p1{
+            display: inline-block;
+            color: #000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+            animation: Animate-9 2s 1;
+           }
+           .p2{
+            display: inline-block;
+            color: #000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+           .p3{
+            display: inline-block;
+            color: #000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+           .p4{
+            display: inline-block;
+            color:#000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+           .p5{
+            display: inline-block;
+            color:#000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+           .p6{
+            display: inline-block;
+            color: #000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+           .p7{
+            display: inline-block;
+            color: #000000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+            margin-top: 17px;
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding:8px;
+           }
+
+           ul{
+            background-color: #f7f7f7;
+            padding: 2px;
+            background-attachment: fixed;
+            max-width: 70%;
+            height: 70px;
+            border-radius: 30px;
+           }
+           .main-1{
+            background-color: #f7f7f7;
+            padding: 2px;
+            max-width: 70%;
+            height: 530px;
+            border-radius: 30px;
+           }
+           .main-1-2{
+            display: flex;
+            justify-content: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 2px;
+            text-align: center;
+            margin-top: 55 px;
+            font-size: 21px;
+            animation: animate-3 3s 1;
+           }
+           @keyframes animate-8 {
+            0%{margin-left: -50px; opacity: 0;}
+            100%{margin-left: 0; opacity: 1;}
+           }
+         .main-3{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 110px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            display: flex;
+            align-items: center;
+            animation: animate-8 0.5s 1;
+            
+         }
+         .main-3:hover{
+            width:150px;
+            transition: width  1s;
+            opacity: 1;
+         }
+         .main-4{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 180px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            animation: animate-8 0.6s 1;
+            
+         }
+         .main-4:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         .main-5{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 255px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            animation: animate-8 0.7s 1;
+         }
+         .main-5:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         .main-6{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 330px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            animation: animate-8 0.8s 1;
+         }
+         .main-6:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         .main-7{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 410px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            animation: animate-8 0.9s 1;
+         }
+         .main-7:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         .main-8{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 495px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            animation: animate-8 1s 1;
+         }
+         .main-8:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         .main-9{
+            background-color:#FFD365 ;
+            padding: 20px;
+            position: absolute;
+            left: 1000px;
+            right:0;
+            top: 570px;
+            bottom: 300px;
+            height:0px;
+            width: 0px;
+            border-radius: 40px;
+            animation: animate-8 1.1s 1;
+         }
+         .main-9:hover{
+            width:150px;
+            transition: width  1s;
+            
+         }
+         
+         div>p{
+           opacity: 1;
+           animation: opacity 2s;
+         }
+         .B-2{
+            background-color:#f7f7f7 ;
+            padding: 20px;
+            display: flex;
+            position: absolute;
+            top: 0;
+            bottom: 10px;
+            left: 1200px;
+            border-radius: 40px;
+            width:120px;
+            margin-top: 10px;
+            justify-content: center;
+            font-size: 16px;
+            font-family:fantasy
+         }
+         @keyframes Animate-6 {
+            0%{opacity: 0;}
+            100%{opacity: 1;}            
+         }
+         ol>li{
+            animation: Animate-6 3s 1;
+         }
+         @keyframes animate-7{
+            0%{margin-top: -200px; opacity: 0;}
+            100%{margin-top: 0; opacity: 1;}
+         }
+         #yb2{
+            background-color: #f7f7f7;
+            padding: 20px;
+            position: absolute;
+            top: 17px;
+            bottom: 400px;
+            left: 980px;
+            right:0;
+            height: 33px;
+            width: 170px;
+            border-radius: 40px;
+            font-family:fantasy;
+            text-align: center;
+            font-size: 30px;
+            text-shadow: -1px -1px;
+            display: flex;
+            justify-content: center;
+            animation: animate-7 1s 1;
+         }
+         @keyframes animate-4 {
+            0%{margin-left: 200px; opacity: 0;}
+            100%{margin-left: 0; opacity: 1;}
+         }
+         @keyframes animate-5{
+            0%{margin-left: -200px; opacity: 0;}
+            100%{margin-right: 0; opacity: 1;}
+         }
+         .B12{
+            background-image: url(B12.png);
+            background-position: center;
+            background-size: cover;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            bottom: 10px;
+            top: 520px;
+            right: 0;
+            left: 380px;
+            animation: animate-5 2s 1;
+         }
+         .B12:hover{
+            opacity: 0.8;
+         }
+         .B13{
+            background-image: url(B13.png);
+            background-position: center;
+            background-size: cover;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            bottom: 10px;
+            top: 525px;
+            right: 0;
+            left: 550px;
+            opacity: 0.9;
+            animation: animate-4 2s 1;
+         }
+         .B13:hover{
+            opacity: 0.7;
+         }
+         .B14{
+            background-image: url(B14.png);
+            background-position: center;
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 10px;
+            top: 525px;
+            right: 0;
+            left: 468px;
+            opacity: 0.9;
+            animation: animate-3 4s 1;
+            
+         }
+         .B14:hover{
+            opacity: 0.8;
+         }
+         .b8b8{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+            animation: animate-3 3s 1;
+         }
+         @keyframes animate-3{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+         }
+         .ul2{
+            font-size: 19px;
+            background-color: #f7f7f7;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;  
+         }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+           <nav>
+                <ul class="Bnb2">
+                    <li class="p1">About</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p2">YTube</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p3">Projects</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p4">Discord</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p5">Contact</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p6">Help</li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <li class="p7">BLog</li>&nbsp&nbsp&nbsp&nbsp
+                </ul>
+                <div class="B-2">
+                  <nav>
+                     <ol>
+                        <li>Comply with reasonable direction.</li><br>
+                        <li>Comply with the WHS Management Plan.</li><br>
+                        <li>No smoking anywhere on site.</li><br>
+                        <li>No fighting, bullying or aggressive behaviour.</li><br>
+                        <li>Follow safe lifting procedures at all times.</li><br>
+                        <li>Place all rubbish in bins provided.</li><br>
+                     </ol>
+                  </nav>
+                </div>
+           </nav>
+        </header>
+        <main>
+            <div class="main-1"><h1 class="b8b8">Introdusing</h1><p class="main-1-2">It’s the roadmap to your essay, it’s the forecast for your argument, it’s...your introduction paragraph, and writing one can feel pretty intimidating. The introduction paragraph is a part of just about every kind of academic writing, from persuasive essays to research papers. But that doesn’t mean writing one is easy!
+
+               If trying to write an intro paragraph makes you feel like a Muggle trying to do magic, trust us: you aren’t alone. But there are some tips and tricks that can make the process easier--and that’s where we come in. 
+               
+               In this article, we’re going to explain how to write a captivating intro paragraph by covering the following info: 
+               
+               A discussion of what an introduction paragraph is and its purpose in an essay
+               An overview of the most effective introduction paragraph format, with explanations of the three main parts of an intro paragraph
+               An analysis of real intro paragraph examples, with a discussion of what works and what doesn’t
+               A list of four top tips on how to write an introduction paragraph
+               Are you ready? Let’s begin! </p></div>
+            <div class="main-3"> <p class="bbn2"></p></div>
+            <div class="main-4"></div>
+            <div class="main-5"></div>
+            <div class="main-6"></div>
+            <div class="main-7"></div>
+            <div class="main-8"></div>
+            <div class="main-9"></div>
+            <div class="main-10"></div>
+            <div id="yb2"> Introdusing</div>
+        </main>
+        <footer class="B-all">
+         <a href="#" class="B12"></a>
+         <a href="#" class="B13"></a>
+         <a href="#" class="B14"></a>
+        </footer>
+        
+    </body>
+</html>
